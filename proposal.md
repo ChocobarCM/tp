@@ -2,8 +2,8 @@
 
 ## Grupo
 ### Integrantes
-50968 Chocobar Carlos Maximo  
-47340 Tarantola Federico
+*50968 Chocobar Carlos Maximo  
+*47340 Tarantola Federico
 
 
 ### Repositorios
