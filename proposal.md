@@ -2,8 +2,9 @@
 
 ## Grupo
 ### Integrantes
-*50968 Chocobar Carlos Maximo  
-*47340 Tarantola Federico
+50968 Chocobar Carlos Maximo  
+47340 Tarantola Federico
+50309 Taborda Astudilla Santiago
 
 
 ### Repositorios
@@ -13,7 +14,7 @@
 
 ## Tema
 ### Descripción
-**
+
 
 ### Modelo
 ![imagen del modelo]()
