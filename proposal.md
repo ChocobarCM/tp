@@ -12,9 +12,10 @@
 * [backend app](http://hyperlinkToGihubOrGitlab)
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
-## Tema
-### Descripción
+## Tema- Gestión de Casos Criminales-
 
+### Descripción
+Plataforma web full-stack diseñada para la centralización y seguimiento de investigaciones delictivas en la ciudad. El sistema permite a las fuerzas de seguridad gestionar expedientes, catalogar evidencias vinculadas y administrar el cuerpo de oficiales, facilitando la visualización de datos críticos para la resolución de crímenes
 
 ### Modelo
 ![imagen del modelo]()
@@ -30,17 +31,17 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Tipo de Delito<br>2. CRUD Oficial/Detective<br>3. CRUD Ubicación/Zona|
+|CRUD dependiente|1. CRUD Caso Criminal (depende de Tipo de Delito) <br>2. CRUD Evidencia (depende de Caso Criminal)|
+|Listado<br>+<br>detalle| Listado de Casos filtrado por Zona => detalle del Caso y Oficial asignado. => detalle CRUD Habitacion<br> 2. Listado de Oficiales por Estado (Activo/Inactivo) => detalle de casos resueltos por el oficial.|
+|CUU/Epic|1. Confección y Apertura de nuevo expediente criminal.<br>2.Auditoría de movimientos y cambios de estado en un caso.|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |a definir|
+|CUU/Epic|a definir|
 
 
 ### Alcance Adicional Voluntario
@@ -49,7 +50,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |a definir|
+|CUU/Epic|1. a definir|
+|Otros|1. a definir|
 
