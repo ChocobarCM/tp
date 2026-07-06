@@ -33,14 +33,14 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD Tipo de Delito<br>2. CRUD Oficial/Detective<br>3. CRUD Ubicación/Zona|
 |CRUD dependiente|1. CRUD Caso Criminal (depende de Tipo de Delito) <br>2. CRUD Evidencia (depende de Caso Criminal)|
-|Listado<br>+<br>detalle| Listado de Casos filtrado por Zona => detalle del Caso y Oficial asignado. => detalle CRUD Habitacion<br> 2. Listado de Oficiales por Estado (Activo/Inactivo) => detalle de casos resueltos por el oficial.|
-|CUU/Epic|1. Confección, Apertura de nuevo expediente criminal, Auditoría de movimientos y cambios de estado en un caso.|
+|Listado<br>+<br>detalle| Listado de Casos filtrado por Zona => detalle del Caso y Oficial asignado.<br> 2. Listado de Oficiales por Estado (Activo/Inactivo) => detalle de casos resueltos por el oficial.|
+|CUU/Epic|1. Confección, Apertura de nuevo expediente criminal, Auditoría de movimientos y cambios de estado en un caso. <br>2. Asignacion de oficial Inteligente|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |a definir|
+|CRUD |1-Tipo de evidencia.<br>2.Estado de caso.<br> 3- Fiscalias.<br> 4- Turnos |
 |CUU/Epic|a definir|
 
 
@@ -50,7 +50,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |a definir|
+|Listados |1- Inventario de evidencia clasificada => Listado el cual muestra la evidencia y su caso. <br> 2- Casos sin resolver. => Casos los cuales cuente con 6 meses o mas sin activadad seran archivado y mostrada en una lista por aparte.|
 |CUU/Epic|1. a definir|
 |Otros|1. a definir|
 
