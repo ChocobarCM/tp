@@ -34,7 +34,7 @@ Regularidad:
 |CRUD simple|1. CRUD Tipo de Delito<br>2. CRUD Oficial/Detective<br>3. CRUD Ubicación/Zona|
 |CRUD dependiente|1. CRUD Caso Criminal (depende de Tipo de Delito) <br>2. CRUD Evidencia (depende de Caso Criminal)|
 |Listado<br>+<br>detalle| Listado de Casos filtrado por Zona => detalle del Caso y Oficial asignado. => detalle CRUD Habitacion<br> 2. Listado de Oficiales por Estado (Activo/Inactivo) => detalle de casos resueltos por el oficial.|
-|CUU/Epic|1. Confección y Apertura de nuevo expediente criminal.<br>2.Auditoría de movimientos y cambios de estado en un caso.|
+|CUU/Epic|1. Confección, Apertura de nuevo expediente criminal, Auditoría de movimientos y cambios de estado en un caso.|
 
 
 Adicionales para Aprobación
