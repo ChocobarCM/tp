@@ -2,7 +2,7 @@
 
 ## Grupo
 ### Integrantes
-50968 Chocobar, Carlos Maximo<br>  
+50968 Chocobar, Carlos Maximo  
 47340 Tarantola, Federico<br>
 50309 Taborda, Astudilla Santiago
 
