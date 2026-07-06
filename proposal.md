@@ -17,7 +17,7 @@
 ### Descripción
 Plataforma web full-stack diseñada para la centralización y seguimiento de investigaciones delictivas en la ciudad. El sistema permite a las fuerzas de seguridad gestionar expedientes, catalogar evidencias vinculadas y administrar el cuerpo de oficiales, facilitando la visualización de datos críticos para la resolución de crímenes
 
-### Modelo
+### Modelo De Relacion
 
 ![DER](tpdsw.drawio.png)
 
